@@ -1,0 +1,18 @@
+    <div class="topbar">
+      <div class="fill">
+        <div class="container">
+          <a class="brand" href="<?php bloginfo('url'); ?>"><?php bloginfo('name'); ?></a>
+<?php get_search_form(); ?>
+      <div class="pull-right" style="padding-top:10px;padding-left:-50px;">
+<a href="https://twitter.com/<?php echo $GLOBALS['twitterAccount']; ?>" class="twitter-follow-button" data-show-count="true" data-preview="true" data-width="160px" data-show-screen-name="false" data-lang="fr"></a>
+<?php echo $GLOBALS['likebox']; ?>
+
+
+      </div>
+
+
+
+
+        </div><!-- container -->
+      </div><!-- fill -->
+    </div><!-- topbar -->
